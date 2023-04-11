@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(93, 126, 126);
+}
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 2%;
+  display: inline-block;
+  transition-duration: 800ms;
+}
+.orange{
+  background-color: orange;
+}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+.purple{
+  background-color: purple;
+}
+.green{
+  background-color: green;
+}
+#game .completed{
+  border: 3px solid black;
+}
+
+/* from https://www.w3schools.com/howto/howto_css_modals.asp */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: rgb(223, 227, 248);
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 2px solid #888;
+  border-radius: 5px;
+  width: 10%; /* Could be more or less, depending on screen size */
+}
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#bestScore {
+  float: right;
+  margin-top: 0;
+}
+#score{
+  float: right;
+}
+.title{
+  /* margin-bottom: 0;
+  margin-top: 10px;
+  margin-right: 7%; */
+  /* text-align: center; */
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+#startBtn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+}
